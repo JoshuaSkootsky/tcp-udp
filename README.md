@@ -6,6 +6,7 @@ This repository contains a demonstration TCP and UDP packet communication in Rus
 ## In Action
 
 Client view:
+
 ![image](https://github.com/user-attachments/assets/366778be-6dda-490f-8bf4-20cbc50cef5b)
 
 Server view:

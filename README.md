@@ -2,6 +2,17 @@
 
 This repository contains a demonstration TCP and UDP packet communication in Rust using `tokio`.
 
+
+## In Action
+
+Client view:
+![image](https://github.com/user-attachments/assets/366778be-6dda-490f-8bf4-20cbc50cef5b)
+
+Server view:
+
+![image](https://github.com/user-attachments/assets/98d8b742-1777-4481-a715-1e3684bb7460)
+
+
 ## Overview
 
 The `tcp_udp` crate defines a `Packet` structure that can be serialized and deserialized for network transmission. It provides methods for sending and receiving packets over `tokio::net::TcpStream` and `tokio::net::UdpSocket`.
@@ -17,6 +28,7 @@ The `main.rs` example demonstrates a UDP server that:
 
 - `src/lib.rs`: Defines the `Packet` struct and its associated methods for serialization, deserialization, and sending/receiving over TCP/UDP.
 - `src/main.rs`: Contains the main application logic, implementing a UDP server.
+- `src/client.rs`: a client for sending encrypted messages (Run with `$ cargo run --bin client`)
 
 ## Packet Structure
 
